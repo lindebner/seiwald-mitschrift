@@ -9,3 +9,5 @@ Weitere bekannte Auszeichnungssprachen sind:
 - Yet Another Markup Language (YAML, YML)
 
 # Installation von nodeJS
+
+Javascript läuft in normelen Umständen in einer Browser-Sandbox (nur in Browser).
