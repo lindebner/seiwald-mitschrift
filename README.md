@@ -16,3 +16,8 @@ Seit ca. 2010 gibt eine Laufzeitumgebung (_Runtime Environment_) für JS, damit 
 ## Installation vin pnpm
 
 Der standardmäßige _Package Manager_ für Node.js ist `npm` (_node packege Manager_). Eine etwas modernere und inzwischen beliebterer Variante ist [`pnpm`](https://pnpm.io/)
+
+## Instalation von Strapi
+
+Installation mit dem Skript `pnpm create strape`.
+Daraufhinführt das CLI durch die Installation.
