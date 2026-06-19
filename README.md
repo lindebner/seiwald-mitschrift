@@ -20,7 +20,7 @@ Der standardmäßige _Package Manager_ für Node.js ist `npm` (_node packege Man
 ## Instalation von Strapi
 
 Installation mit dem Skript `pnpm create strape`.
-Daraufhinführt das CLI durch die Installation.
+Daraufhinführt das CLI (_Command Line Interface_) durch die Installation.
 Falls bei der Installation sogenannte `build scripts` nicht ausgeführt werden können, schlägt die CLI die Fehelerbehandelung selbständig vor:
 
 1. Wechsle in das Installationsverzeichnis (z.B. mit `cd my-strapi-project`)
