@@ -33,3 +33,9 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werde. Wir kön
 
 - **MCP-Server:**
   MCP steht für _Model Context Protokoll_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots / LLMs (_Large Language model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen.
+
+---
+
+## Javascript-Frontendentwicklung mit Frameworks (Svelt, React, Vue, Angular)
+
+Frontend
