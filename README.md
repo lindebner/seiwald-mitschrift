@@ -39,3 +39,5 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werde. Wir kön
 ## Javascript-Frontendentwicklung mit Frameworks (Svelt, React, Vue, Angular)
 
 Frontend
+
+Andi ist sehr schlau.
