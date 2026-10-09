@@ -36,12 +36,13 @@ Webdevelopment  hat im Laufe der letzten rund 35 Jahre einige Evolutionsstufen d
 
 2. Dynamische Websites (PHP, JSP, ASP) - Inhalte werden in Datenbanken gespeichert und bei Bedarf dynamisch generiert. Dominant in den 2000er Jahren.
 
-3. *Single-Page Application* (SPA) - mit JavaScript-Frameworks  erstellte "Webapps", die ähnlich funktionieren wie klassische Desktop-Anwendungen bzw. Handy-Apps. Dominant in den 2010er Jahren.
+3. *Single-Page Application* (SPA) - mit JavaScript-Frameworks (z.B. React, Vue, Angular, Svelt, ...) erstellte "Webapps", die ähnlich funktionieren wie klassische Desktop-Anwendungen bzw. Handy-Apps. Dominant in den 2010er Jahren. Um Handy-Apps möglichst nah zu kommen, wurde der *Progressive Web App* (PWA)-Standard entwickelt werden. Damit können Webbapps offline funktionieren, 
+Push-Benachrichtigungen senden und auf bestimmte native Funktionenn des Geräts zugreifen.
 
 
 
 # VibeCoding / AgenticEngineering mit VS-Code und GitHub Copilot
-
+ 
 VibeCoding passiert in VS-Code in erster Linie über die neue eingeführte Agent View.
 Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werde. Wir können unseren _Harness_ mit verschiedene Methoden anpassen:
 
