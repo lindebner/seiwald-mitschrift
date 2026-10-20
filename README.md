@@ -77,4 +77,4 @@ Der Ordner `.vscode` enthält Einstellungen für den VS-Code-Editor. Der Ordner 
 
 ![unterstruktur des src-Ordner](image-1.png)
 
-Der Ordner `src` enthält den Quellcode der Anwendung. 
+Der Ordner `src` enthält den Quellcode der Anwendung. Die Datei `app.css`, `App.svelte` und `main.js` sind die Einstiegspunkte der Anwendung (in diesem Fall eine SPA). Sie werden vom Browser als erstes geladen, wenn die entsprechende Website aufgerufen wird. Die Datei `app.css` enthält die globalen CSS-Stile. Die Datei `App.svelte` ist die Hauptkomponente der Anwendung, die anderen Komponenten enthält und in der Benutzeroberfläche (UI) anzeigt. Die Datei `main.js` ist der Einstiegspunkt für das JavaScript/TypeScript der Anwendung. Sie initialisiert die Anwendung in der `App.svelte` und bindet sie an das HTML_Dokument (`index.html` im Root-Ordner).
