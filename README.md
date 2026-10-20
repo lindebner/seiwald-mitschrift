@@ -65,6 +65,16 @@ Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werde. Wir kön
 
 ---
 
-## Javascript-Frontendentwicklung mit Frameworks (Svelt, React, Vue, Angular)
+# Fronted-Entwicklung
 
-Frontend
+## Ordnerstruktur 
+
+Die Ordnungstruktur einer typischen Frontes-Anwendung sieht so aus:
+
+![Ordenerstruktu einer Svelt-Anwendung](image.png)
+
+Der Ordner `.vscode` enthält Einstellungen für den VS-Code-Editor. Der Ordner `node_mdules` enthält die Abhängikeiten (*dependencies*) der Anwendung. DAs sind jene Pakete, die bei der Entwicklung (*buil time* ) und/oder bei der Ausführung (*runtime*) der Anwendung benötigt werden. Alle Abhängigkeiten sind in der Datein `package.json`aufgelistet. Außerdem enthält die Datei `package.json`Informationen über die Anwendung selbst (NAme, Version, , Autor, Lizenz, etc.) und Skripten, die bestimmte Aufgaben automatisieren (z.b. Starten ANwedung, Testen der Anwendung, Erstellen einer Produktionsversion der Anwendung). Der Ordner `public` enthält statische Dateien, die direkt vom Webserver ausgeliefert werden (z.B. Bilder, Schriftarten, Favicon, etc.). Der Ordner `src` enthält den Quellcode der Anwendung. Der Ordner `src/routes` enthält die Routen der Anwendung. Jede Route entspricht einer Seite der Anwendung. Der Ordner `src/lib` enthält wiederverwendbare Komponenten und Hilfsfunktionen. Der Ordner `src/assets` enthält statische Dateien, die von der Anwendung verwendet werden (z.B. Bilder, Schriftarten, etc.). Der Ordner `src/app.html` enthält das HTML-Template der Anwendung. Der Ordner `src/main.js` enthält den Einstiegspunkt der Anwendung. Der Ordner `public`enthält statische Dateien (z.b. Bilder, Fonts, Icons), die direkt vom Browser unter dem jeweiligen Pfad geladen werden können.
+
+![unterstruktur des src-Ordner](image-1.png)
+
+Der Ordner `src` enthält den Quellcode der Anwendung. 
