@@ -39,9 +39,19 @@ Webdevelopment  hat im Laufe der letzten rund 35 Jahre einige Evolutionsstufen d
 3. *Single-Page Application* (SPA) - mit JavaScript-Frameworks (z.B. React, Vue, Angular, Svelt, ...) erstellte "Webapps", die ähnlich funktionieren wie klassische Desktop-Anwendungen bzw. Handy-Apps. Dominant in den 2010er Jahren. Um Handy-Apps möglichst nah zu kommen, wurde der *Progressive Web App* (PWA)-Standard entwickelt werden. Damit können Webbapps offline funktionieren, 
 Push-Benachrichtigungen senden und auf bestimmte native Funktionenn des Geräts zugreifen. Es gibt drei Vorausetzungen, die eine Webbapp erfüllken muss, um als PWA  zu gelten:
 
-  1.Sie muss über HTTPS ausgeliefert werden.
-  2.Sie muss ein Web-App-Manifest besitzen. 
-  3.Sie muss Service Worker verwenden, um Inhalte im Cache zu speichern und offline verfügbar zu machen. Ein Service worker ist eine java skirpt datei die im Hintergrund läuft und bestimmte Aufgaben übernimmt, z.B. das Cachen von Inhalten, das Empfangen von Push-Benachrichtigungen oder das Synchronisieren von Daten im Hintergrund, selbst wennd er Browser geschlossen ist. 
+    1. Sie muss über HTTPS ausgeliefert werden.
+
+    2.  Sie muss ein Web-App-Manifest besitzen. 
+    
+    3.  Sie muss Service Worker verwenden, um Inhalte im Cache zu speichern und offline verfügbar zu machen. Ein Service worker ist eine java skirpt datei die im Hintergrund läuft und bestimmte Aufgaben übernimmt, z.B. das Cachen von Inhalten, das Empfangen von Push-Benachrichtigungen oder das Synchronisieren von Daten im Hintergrund, selbst wennd er Browser geschlossen ist. 
+
+Fronted-Framworks wenden folgende Konzepte an, um eine möglichst gute *User Experience* (UX) zu erreichen:
+
+- **Component-based Architecture** (_Komponenten_)**:** Komponenten sind die wiederverwendbare "Lego-" Bausteine einer Webbapp. Sie kapseln HTML, CSS und JavaScript in einer einzigen Einheit. Komponenten können verschachtelt werden, um komplexe Benutzeroberflächen zu erstellen.
+
+- **deklarative Programming:** der Javascript- und Template(HTML)-Code beschreiben, was die Benutzeroberfläche tun soll, anstatt wie sie es tun soll. Das Framework kümmert sich um die Details der Aktualisierung des DOM (Document Object Model), wenn sich der Anwendungszustand ändert. Dabei kommt **Reactivität**  (*Reactivity*) ins Spiel: Wenn sich der Zustand einer Komponente ändert, wird die Benutzeroberfläche automatisch aktualisiert, um diese Änderungen widerzuspiegeln. Wenn die aktualisierung auch in die andere Richtung funktioniert (d.h. wenn sich die Benutzeroberfläche (*User Interface (UI)*) ändert, weil der Benutzer mit ihr interagiert und der Zustand (*state*) der Anwendung entsprechend aktualisiert wird), spricht man von bidirektionaler Reaktivität (_two-way data binding_ ).
+
+  **Logikbausteine** (SChleifen zur Darsteullung von Listen und Bedingungen für das konditionale Ein- und Ausblenden von UI ELementen) werden in den Templents(HTML) der Komponenten definiert. Die Templates werden vom Framework in die entsprechenden DOM-Elemente übersetzt. Komponenten können auch andere Komponente n enthalten (verschachtelt werden), wodurch eine hierachische Struktur entsteht. Die Komponenten können auch **Props** (Eigenschaften) und **Events** (Ereignisse) verwenden, um miteinander zu kommunizieren. Props sind Daten, die von einer übergeordneten Komponente an eine untergeordnete Komponente weitergegeben werden. Events sind BEnachrichtigungen, die von einer untergeordneten Komponente an eine übergeordnete Komponente gesendet werden, um sie über bestimmte Aktionen oder Änderungen zu informieren.
 
 
 
